@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="3e29abe55816ee6db63b49acdd35bab4.jpg">
+    <link rel="stylesheet" href="index.css">
+    <title>Management System</title>
+</head>
+<body>
+    <h1>Management System</h1>
+
+<div class="inputs">
+<input id="text1" type="text" placeholder="Car Name">
+<input id="number" type="number" placeholder="Car Price">
+<input id="text2" type="text" placeholder="Car Category">
+<div class="add">
+<button id="add" onclick="addProduct()"  onclick="clearProduct()"   >Add</button>
+<button id="update" onclick="addButton()" >Update</button>
+</div>
+
+</div>
+<div class="research">
+    <input  id="resarch"onkeyup="reseachElement()"  type="text" placeholder="Research...">
+</div>
+
+
+<table border="1" >
+    <thead>
+<tr>
+   <th>ID</th> 
+    <th> Name</th>
+    <th> Price</th>
+    <TH>Category</TH>
+    <th> Update</th>
+    <th>Delete</th>
+
+</tr>
+<tbody id="body">
+
+<tr>
+</tr>
+<td><button   >Update</button></td>
+</tbody>
+
+</table>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="index.js"></script>
+</body>
+</html>
